@@ -12,7 +12,7 @@ Live: https://keep-sync.slyfe.fyi/
 - Privacy: https://keep-sync.slyfe.fyi/privacy.html
 - Terms: https://keep-sync.slyfe.fyi/terms.html
 - Authorized domain: slyfe.fyi
-- Logo: https://keep-sync.slyfe.fyi/logo.png
+- Logo: https://keep-sync.slyfe.fyi/logo.jpg
 
 Cloudflare Worker: keep-sync-branding. Worker entrypoint: worker.mjs.
 
