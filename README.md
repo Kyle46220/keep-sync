@@ -1,12 +1,21 @@
 # KeepSync
 
-Public informational website for Kyle’s personal Google Keep, Drive, GitHub and Obsidian automation.
+Public branding website for Kyle’s personal note synchronization.
 
-GitHub Pages serves the root of main. Open index.html locally to preview.
+Live: https://keep-sync.slyfe.fyi/
 
-- Homepage: index.html
-- Privacy policy: privacy.html
-- Terms: terms.html
-- Logo: logo.png
+## Google OAuth branding fields
 
-This repository contains public website assets only; no synchronization credentials or note content.
+- App: KeepSync
+- Support and developer contact: kyle4068@gmail.com
+- Homepage: https://keep-sync.slyfe.fyi/
+- Privacy: https://keep-sync.slyfe.fyi/privacy.html
+- Terms: https://keep-sync.slyfe.fyi/terms.html
+- Authorized domain: slyfe.fyi
+- Logo: https://keep-sync.slyfe.fyi/logo.png
+
+Cloudflare Worker: keep-sync-branding. Worker entrypoint: worker.mjs.
+
+The HTML files and style.css are the editable originals. worker.mjs embeds those pages for hosting. The logo is served from this public repository.
+
+No credentials or note content are included.
